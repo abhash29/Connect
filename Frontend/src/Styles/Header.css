@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 15px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 8px 20px rgba(218, 165, 32, 0.5);
+    /* Increased size & darkness */
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.left div:first-child {
+    font-size: 2rem;
+    /* Making "Connect" largest */
+    font-weight: bold;
+    color: #007bff;
+    margin: 5px;
+}
+
+.left h3 {
+    font-size: 1.5rem;
+    /* Making "Talk to Strangers!" large */
+    font-style: italic;
+    transform: rotate(-10deg);
+    /* Making it diagonal */
+    color: #080c09;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
